@@ -123,30 +123,29 @@ p {
 }
 
 .projects-item {
-    background-color: #176B87;
+    /**background-color: #176B87;**/
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     padding: 25px;
-    color: #fff;
 }
 
 .projects-item h3 {
     margin: 10px;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 1.5rem;
-    color: #fff;
 }
 
 .projects-item img {
     max-width: 300px;
     width: 100%;
-    border:3px solid #fff;
+    border:3px solid #04364A;
     border-radius: 5%;
+    margin-bottom: 15px;
 }
 
 .contact-info {
